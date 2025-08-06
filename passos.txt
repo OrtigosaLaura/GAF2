@@ -1,0 +1,7 @@
+git config --global user.name OrtigosaLaura
+git config --global user.email lauraortigosa378
+
+criando um projeto API
+dotnet new webapi -o GAF2.Api --use-controllers
+
+dotnet add package Swashbuckle.AspNetCore --version 9.0.0
