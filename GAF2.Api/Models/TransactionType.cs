@@ -1,8 +1,7 @@
-namespace GAF2.Api.Models
+namespace GAF2.Api.Models;
+
+public enum TransactionType
 {
-    public enum TransactionType
-    {
-        Receita = 1,
-        Despesa = 2
-    }
+    Receita = 1,
+    Despesa = 2
 }
